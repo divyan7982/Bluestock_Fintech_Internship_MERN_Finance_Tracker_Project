@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Expense Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/user-attachments/assets/8fc23d83-fc46-4311-8471-f11269db5d89)
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The **Expense Tracker** is a full-stack application designed to help users manage their expenses efficiently. It provides a simple and user-friendly interface to track income and expenses, view transaction history, and manage financial records. The project is built using the MERN stack (MongoDB, Express, React, Node.js).
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Expense Management**: Add, edit, delete, and view expenses.
+- **Real-time Data**: All transactions are managed and displayed in real-time.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend**: React, Axios
+- **Backend**: Node.js, Express, Mongoose
+- **Database**: MongoDB
+- **Dev Tools**: Nodemon, Concurrently
+- **Additional Tools**: dotenv, morgan, colors
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm installed on your local machine.
+- MongoDB installed locally or a MongoDB Atlas account.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup Instructions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/expense-tracker.git
+   cd expense-tracker
 
-### `npm run eject`
+2. **Install Backend Dependencies**:
+   ```bash
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. **Install Frontend Dependencies**:
+   ```bash
+   cd client
+   npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Set up environment variables: Create a .env file in the root directory of the project and add your configuration values:**:
+   ```bash
+   MONGO_URI=your_mongodb_uri
+   NODE_ENV=development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+5. **Run the application**:
+   ```bash
+   npm run dev
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage
+- **Access the app**: Open your browser and go to http://localhost:3000 to start using the application.
+- **Manage expenses**: Add, edit, delete, and view expenses to keep track of your financial activities.
 
-## Learn More
+## Scripts
+### Backend
+- **npm start**: Start the backend server.
+- **npm run server**: Start the backend server with Nodemon for development.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Frontend
+- **npm start**: Start the React development server.
+- **npm run build**: Build the React app for production.
+- **npm run test**: Run the React test suite.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
