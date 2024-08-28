@@ -1,14 +1,14 @@
 {
   "name": "expense-tracker",
   "version": "1.0.0",
-  "description": "bakend for simple expense tracker",
+  "description": "backend for simple expense tracker",
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Saurabh Maurya",
+  "author": "Divyanshu Choubey",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
